@@ -9,24 +9,26 @@ a {
 }
 
 body {
-  font-family: "Sunak-Bold";
+  font-family: "Sanuk-Bold";
   background: url(/file/scalarium_background.png) no-repeat;
   background-color: #c1eaf1;
-  background-position: center;
+  background-position: center 1%;
   color: #333333;
 }
 
 h1 {
-  font-family: "Sunak-Bold";
-  font-weight: bold;
+  font-family: "Sanuk-Bold";
+  font-size: 5.5em;
 }
 
 h2 {
-  font-weight: bold;
 }
 
 h3 {
-  font-weight: bold
+}
+
+li {
+  font-size: 110%;
 }
 
 blockquote {
@@ -58,6 +60,9 @@ div.first-slide {
   background: none;
 }
 
+#footer {
+  display: none;
+}
 
 span.current:before, span.current:after {
   content: url(leaf.png);

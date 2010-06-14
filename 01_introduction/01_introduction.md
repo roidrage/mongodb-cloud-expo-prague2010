@@ -1,5 +1,11 @@
 !SLIDE center first-slide
 
-!SLIDE
+!SLIDE bullets incremental
 
 # `whoami` #
+
+* Mathias Meyer
+
+!SLIDE
+
+# Agenda #
