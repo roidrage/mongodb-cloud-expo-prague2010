@@ -1,0 +1,85 @@
+a {
+  text-decoration: underline;
+  color: #333333;
+}
+
+.heart {
+  font-size: 96px;
+  color: red;
+}
+
+body {
+  font-family: "Sunak-Bold";
+  background: url(/file/scalarium_background.png) no-repeat;
+  background-color: #c1eaf1;
+  background-position: center;
+  color: #333333;
+}
+
+h1 {
+  font-family: "Sunak-Bold";
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold
+}
+
+blockquote {
+  font-size: 48px;
+}
+
+p.caption {
+  margin-top: 20px;
+  margin-right: 50px;
+  float: right;
+  font-style: italic;
+  font-size: 20px;
+}
+
+div.slide {
+  background: none;
+}
+
+.slide {
+  border: none;
+}
+
+div.first-slide {
+  background: url(/file/mongodb.png) no-repeat;
+  background-position: center center;
+}
+
+#preso {
+  background: none;
+}
+
+
+span.current:before, span.current:after {
+  content: url(leaf.png);
+}
+
+code {
+  line-height: 42px;
+}
+
+img#scalarium_logo {
+  width: 450px;
+  height: 450px;
+}
+
+#slideInfo {
+  float: right;
+  background-color: #333333;
+  height: 20px;
+  color: white;
+  width: 200px;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+
