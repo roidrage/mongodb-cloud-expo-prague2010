@@ -6,6 +6,11 @@
 
 * Mathias Meyer
 
-!SLIDE
+!SLIDE bullets
 
 # Agenda #
+
+<ul>
+<li><span class="current">Introduction</span></li>
+<li>Basic CRUD</li>
+</ul>
