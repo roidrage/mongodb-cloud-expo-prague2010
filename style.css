@@ -23,9 +23,11 @@ h1 {
 }
 
 h2 {
+  font-size: 4em;
 }
 
 h3 {
+  font-size: 3em;
 }
 
 li {
@@ -89,3 +91,6 @@ img#scalarium_logo {
   padding-top: 7px;
 }
 
+pre.sh_sourceCode {
+  background-color: #b6ecf2;
+}
