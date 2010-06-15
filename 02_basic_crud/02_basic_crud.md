@@ -3,7 +3,7 @@
 <ul>
 <li>Introduction</li>
 <li><span class="current">Basic CRUD</span></li>
-<li>Distinctive Features</li>
+<li>Schema Design</li>
 <li>Scaling Up</li>
 </ul>
 
@@ -93,9 +93,12 @@
     @@@ javascript
     db.users.remove({dark_side: true})
 
-!SLIDE bullets incremental
+!SLIDE
 
 # MongoDB Niceties #
+
+!SLIDE bullets incremental
+
 
 * Atomic modifier operations
 * Increment and decrement for counters

@@ -2,6 +2,7 @@
   "name": "MongoDB",
   "sections": [
     {"section": "01_introduction"},
-    {"section": "02_basic_crud"}
+    {"section": "02_basic_crud"},
+    {"section": "03_schema_design"}
   ]
 }

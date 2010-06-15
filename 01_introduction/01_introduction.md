@@ -13,7 +13,7 @@
 <ul>
 <li><span class="current">Introduction</span></li>
 <li>Basic CRUD</li>
-<li>Distinctive Features</li>
+<li>Schema Design</li>
 <li>Scaling Up</li>
 </ul>
 
