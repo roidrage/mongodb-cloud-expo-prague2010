@@ -72,3 +72,11 @@
       "location": "Prague",
       "tags": ["cloud"]
     }
+
+!SLIDE
+
+# Dynamic Queries #
+
+!SLIDE
+
+# Secondary Indexes #
