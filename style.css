@@ -92,8 +92,6 @@ img#scalarium_logo {
 }
 
 pre.sh_sourceCode {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
+  margin-top: 50px;
   background-color: #c1eaf0;
 }

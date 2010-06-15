@@ -55,7 +55,7 @@
 ## Finding Objects ##
 
     @@@ javascript
-    > var user = db.users.find({dark_side: false})
+    var user = db.users.find({dark_side: false})
     
     {
       "_id" : ObjectId("4c178d1c761f4db3c71bd"),
@@ -76,21 +76,68 @@
 ## Updating Objects ##
 
     @@@ javascript
-    > user.dark_side = true
-    > db.users.save(user)
+    user.dark_side = true
+    db.users.save(user)
 
 !SLIDE javascript
 
 ## Deleting Objects ##
 
     @@@ javascript
-    > db.users.remove(user)
+    db.users.remove(user)
 
 !SLIDE javascript
 
 ## Delete by predicate ##
 
     @@@ javascript
-    > db.users.remove({dark_side: true})
+    db.users.remove({dark_side: true})
 
+!SLIDE bullets incremental
 
+# MongoDB Niceties #
+
+* Atomic modifier operations
+* Increment and decrement for counters
+* Push, pop and pull for arrays
+* Set specific attributes
+
+!SLIDE javascript
+
+## Increment and decrement ##
+
+    @@@ javascript
+    db.users.update(
+      {dark_side: true},
+      {$inc: {age: 1}}
+    )
+
+!SLIDE javascript
+
+## Push ##
+
+    @@@ javascript
+    db.users.update(
+      {dark_side: true},
+      {$push: {tags: 'clouds'}}
+    )
+
+!SLIDE javascript
+
+## Pop ##
+
+    @@@ javascript
+    db.users.update(
+      {dark_side: true},
+      {$pop: {tags: 'clouds'}}
+    )
+
+!SLIDE javascript
+
+## Set attributes ##
+
+    @@@ javascript
+    db.users.update(
+      {dark_side: true},
+      {$set: {helmet: true}}
+    )
