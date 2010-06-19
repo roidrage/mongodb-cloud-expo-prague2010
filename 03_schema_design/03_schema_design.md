@@ -43,4 +43,29 @@
 
 !SLIDE
 
+# Rich documents #
 
+!SLIDE bullets incremental
+
+* Simplify related data
+* Store document metadata
+
+!SLIDE bullets incremental
+
+## Simplifying Relationships ##
+
+* Embed external data
+
+!SLIDE javascript
+
+    @@@ javascript
+    purchase = {
+      buyer: {
+        name: "Mathias Meyer",
+        address: {
+          street: "...",
+          zip: 12345,
+          city: "Berlin"
+        }
+      }
+    }

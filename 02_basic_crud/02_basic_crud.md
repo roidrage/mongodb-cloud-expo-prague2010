@@ -55,7 +55,7 @@
 ## Finding Objects ##
 
     @@@ javascript
-    var user = db.users.find({dark_side: false})
+    user = db.users.find({dark_side: false})
     
     {
       "_id" : ObjectId("4c178d1c761f4db3c71bd"),
@@ -70,6 +70,7 @@
 
 * Added automatically
 * Unique document identifier
+* Or pick your own key
 
 !SLIDE javascript
 
@@ -98,7 +99,6 @@
 # MongoDB Niceties #
 
 !SLIDE bullets incremental
-
 
 * Atomic modifier operations
 * Increment and decrement for counters

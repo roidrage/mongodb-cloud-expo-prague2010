@@ -2,9 +2,11 @@
 
 !SLIDE bullets incremental
 
-# `whoami` #
+# Hello #
 
-* Mathias Meyer
+* [Mathias Meyer](http://paperplanes.de)
+* Chief Visionary at [Peritor](http://peritor.com)
+* [@roidrage](http://twitter.com)
 
 !SLIDE bullets
 

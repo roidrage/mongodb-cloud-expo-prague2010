@@ -12,7 +12,7 @@ body {
   font-family: "Sanuk-Bold", "Gill Sans", Helvetica;
   font-weight: bold;
   background: url(/file/scalarium_background.png) no-repeat;
-  background-color: #c1eaf0;
+  background-color: #b6ecf2;
   background-position: center 1%;
   color: #333333;
 }
@@ -93,5 +93,5 @@ img#scalarium_logo {
 
 pre.sh_sourceCode {
   margin-top: 50px;
-  background-color: #c1eaf0;
+  background-color: #b6ecf2;
 }
