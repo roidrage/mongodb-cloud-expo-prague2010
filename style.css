@@ -13,7 +13,7 @@ body {
   font-weight: bold;
   background: url(/file/scalarium_background.png) no-repeat;
   background-color: #b6ecf2;
-  background-position: center 1%;
+  background-position: center -1%;
   color: #333333;
 }
 

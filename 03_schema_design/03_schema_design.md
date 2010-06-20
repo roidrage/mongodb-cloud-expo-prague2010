@@ -13,11 +13,7 @@
 
 !SLIDE
 
-## Data can be migrated on the fly. ##
-
-!SLIDE
-
-## No schema migrations necessary. ##
+## Simply add or remove data. ##
 
 !SLIDE
 
@@ -54,18 +50,31 @@
 
 ## Simplifying Relationships ##
 
-* Embed external data
+* External data as embedded documents
 
 !SLIDE javascript
 
     @@@ javascript
-    purchase = {
-      buyer: {
-        name: "Mathias Meyer",
-        address: {
-          street: "...",
-          zip: 12345,
-          city: "Berlin"
+    db.posts.update(
+      {"_id": post._id},
+      {
+        $push: {
+          comments: {
+            author: 'mathias',
+            created: Date(),
+            body: 'This is great!'
+          }
         }
+      })
+
+!SLIDE javascript
+
+## Embed metadata ##
+
+    @@@ javascript
+    db.posts.update(
+      {"_id": post._id},
+      {
+        $inc: {views: 1}
       }
-    }
+    )

@@ -27,9 +27,13 @@
 * High-performance
 * Document-oriented database
 
-!SLIDE javascript
+!SLIDE bullets incremental
 
-# Data Model #
+# Documents? #
+
+* Unstructured
+* Self-contained
+* Schemaless
 
 !SLIDE javascript
 
@@ -53,6 +57,10 @@
 * Date type
 * Binary data
 * Regular expressions
+
+!SLIDE
+
+# Requires Language Drivers #
 
 !SLIDE javascript
 
@@ -82,3 +90,11 @@
 !SLIDE
 
 # Secondary Indexes #
+
+!SLIDE
+
+# Map/Reduce #
+
+!SLIDE
+
+## Relational database + Schemaless ##

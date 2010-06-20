@@ -48,6 +48,7 @@
 
 ## A collection holds similar documents. ##
 
+* Like a relational table
 * For example: Users
 
 !SLIDE javascript
@@ -63,6 +64,12 @@
       "company" : "Peritor",
       "dark_side" : false
     }
+
+!SLIDE bullets incremental
+
+## _id = Primary Key ##
+
+* a.k.a. ObjectId
 
 !SLIDE bullets incremental
 
@@ -100,7 +107,8 @@
 
 !SLIDE bullets incremental
 
-* Atomic modifier operations
+## Atomic modifier operations ##
+
 * Increment and decrement for counters
 * Push, pop and pull for arrays
 * Set specific attributes
