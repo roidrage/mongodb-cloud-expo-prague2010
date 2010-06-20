@@ -26,6 +26,10 @@
 
 !SLIDE
 
+## Read vs. write patterns ##
+
+!SLIDE
+
 # Blog posts #
 
 !SLIDE javascript
@@ -92,13 +96,29 @@
       tags: {$in: ["nosql", "mongodb"]}
     })
 
+!SLIDE javascript
+
+## $where ##
+
+    @@@ javascript
+    db.posts.find({
+      $where: 'this.author = "mathias"'
+    })
 !SLIDE
 
 ## [Many more operators](http://www.mongodb.org/display/DOCS/Advanced+Queries) ##
 
 !SLIDE javascript
 
-## Index search relevant data ##
+## Sorting ##
+
+    @@@ javascript
+    db.users.find({author: 'mathias'}).
+      sort({created: -1})
+
+!SLIDE javascript
+
+## Index relevant data ##
 
     @@@ javascript
     db.posts.ensureIndex({author: 1})
