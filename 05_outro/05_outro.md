@@ -11,6 +11,15 @@
 
 !SLIDE bullets
 
+# Links #
+
+* [MongoDB](http://www.mongodb.org)
+* [MongoDB Documentation](http://www.mongodb.org/display/DOCS/Home)
+* [Try MongoDB](http://try.mongodb.org)
+* [Notes on MongoDB](http://www.paperplanes.de/2010/2/25/notes_on_mongodb.html)
+
+!SLIDE bullets
+
 # Thanks! #
 
 * [Scalarium](http://scalarium.com)
