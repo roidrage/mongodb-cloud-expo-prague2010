@@ -28,6 +28,10 @@
 * High-performance
 * Document-oriented database
 
+!SLIDE center
+
+<a href="http://10gen.com"><img src="10gen.png"/></a>
+
 !SLIDE bullets incremental
 
 # Documents? #
