@@ -113,10 +113,6 @@
     @@@ javascript
     db.users.remove({dark_side: true})
 
-!SLIDE
-
-# MongoDB Niceties #
-
 !SLIDE bullets incremental
 
 ## Atomic modifier operations ##

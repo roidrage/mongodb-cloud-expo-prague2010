@@ -92,6 +92,10 @@ img#scalarium_logo {
   padding-top: 3px;
 }
 
+img[class=shadow],
+img[title=shadow] {
+  -webkit-box-shadow: 0px 3px 5px #333;
+}
 pre.sh_sourceCode {
   margin-top: 50px;
   background-color: #cdeef3;

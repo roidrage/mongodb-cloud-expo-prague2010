@@ -8,6 +8,14 @@
 * Chief Visionary at [Peritor](http://peritor.com)
 * [@roidrage](http://twitter.com)
 
+!SLIDE center
+
+<a href="http://scalarium.com"><img src="scalarium.png" class="no-shadow"/></a>
+
+# EC2 Cloud Management and Deployment #
+
+[@scalarium](http://twitter.com/scalarium)
+
 !SLIDE bullets
 
 # Agenda #

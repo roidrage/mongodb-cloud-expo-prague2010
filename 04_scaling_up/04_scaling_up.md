@@ -45,4 +45,4 @@
 
 ## Auto-Sharding ##
 
-![MongoDB Sharding](mongodb_sharding.png)
+![MongoDB Sharding](mongodb_sharding.png "shadow")

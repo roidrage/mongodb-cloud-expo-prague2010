@@ -82,7 +82,8 @@
 
     @@@ javascript
     db.posts.find({
-      published: {$lte: Date()})
+      published: {$lte: Date()}
+    })
 
 !SLIDE javascript
 
@@ -104,7 +105,7 @@
 
 !SLIDE javascript
 
-## Operators can be combined ##
+## Combine Operators ##
 
     @@@ javascript
     db.posts.find({
@@ -112,10 +113,6 @@
       tags: {$in: ["nosql", "mongodb"]},
       $where: 'this.author = "mathias"'
     })
-
-!SLIDE
-
-## [Many more operators](http://www.mongodb.org/display/DOCS/Advanced+Queries) ##
 
 !SLIDE javascript
 
@@ -226,7 +223,7 @@
 
 * Pre-allocated size
 * Roll over through LRU
-* Insertion order
+* Keep insertion order
 * No indexes
 
 !SLIDE bullets incremental
