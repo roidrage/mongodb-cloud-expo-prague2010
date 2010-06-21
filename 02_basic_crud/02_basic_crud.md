@@ -48,8 +48,7 @@
 
 ## A collection holds similar documents. ##
 
-* Like a relational table
-* For example: Users
+* Think relational table
 
 !SLIDE javascript
 
@@ -67,9 +66,10 @@
 
 !SLIDE bullets incremental
 
-## _id = Primary Key ##
+## `_id` = Primary Key ##
 
-* a.k.a. ObjectId
+* Default: ObjectId
+* Pick your own key
 
 !SLIDE bullets incremental
 
@@ -77,7 +77,6 @@
 
 * Added automatically
 * Unique document identifier
-* Or pick your own key
 
 !SLIDE javascript
 
@@ -96,7 +95,7 @@
 
 !SLIDE javascript
 
-## Delete by predicate ##
+## Deleting by Predicate ##
 
     @@@ javascript
     db.users.remove({dark_side: true})

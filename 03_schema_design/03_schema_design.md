@@ -189,3 +189,11 @@
 # Why not embed data? #
 
 * Denormalization vs. Normalization
+
+!SLIDE bullets incremental
+
+## Capped Collections ##
+
+* Fixed size
+* Pre-allocated
+* Roll over through LRU
