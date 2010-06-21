@@ -22,10 +22,6 @@
 
 !SLIDE
 
-## Many options to design documents. ##
-
-!SLIDE
-
 ## Read vs. write patterns ##
 
 !SLIDE
@@ -104,6 +100,18 @@
     db.posts.find({
       $where: 'this.author = "mathias"'
     })
+
+!SLIDE javascript
+
+## Operators can be combined ##
+
+    @@@ javascript
+    db.posts.find({
+      created: {$lt: Date()},
+      tags: {$in: ["nosql", "mongodb"]},
+      $where: 'this.author = "mathias"'
+    })
+
 !SLIDE
 
 ## [Many more operators](http://www.mongodb.org/display/DOCS/Advanced+Queries) ##
@@ -118,10 +126,30 @@
 
 !SLIDE javascript
 
+## Grouping ##
+
+    @@@ javascript
+    db.users.group({
+      key: {name: 1},
+      reduce: function(doc, total) {
+        total.sum += 1
+      },
+      initial: {sum: 0}
+    })
+
+!SLIDE javascript
+
 ## Index relevant data ##
 
     @@@ javascript
     db.posts.ensureIndex({author: 1})
+
+!SLIDE bullets incremental
+
+## Indexes and Collections ##
+
+* Store only similar data
+* For efficient indexes
 
 !SLIDE
 
@@ -189,11 +217,27 @@
 # Why not embed data? #
 
 * Denormalization vs. Normalization
+* Document size exceeds 4 MB
 
 !SLIDE bullets incremental
 
 ## Capped Collections ##
 
-* Fixed size
-* Pre-allocated
+* Pre-allocated size
 * Roll over through LRU
+
+!SLIDE bullets incremental
+
+## GridFS ##
+
+* Chunked binary storage
+
+!SLIDE bullets incremental
+
+## Map/Reduce ##
+
+* Aggregate and manipulate data
+
+!SLIDE javascript
+
+

@@ -3,6 +3,8 @@
   "sections": [
     {"section": "01_introduction"},
     {"section": "02_basic_crud"},
-    {"section": "03_schema_design"}
+    {"section": "03_schema_design"},
+    {"section": "04_scaling_up"},
+    {"section": "05_outro"}
   ]
 }

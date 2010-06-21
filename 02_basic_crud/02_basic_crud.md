@@ -86,6 +86,13 @@
     user.dark_side = true
     db.users.save(user)
 
+!SLIDE bullets incremental
+
+## In-place Updates ##
+
+* Modification in memory
+* Flush to disk later
+
 !SLIDE javascript
 
 ## Deleting Objects ##
@@ -110,7 +117,7 @@
 
 * Increment and decrement for counters
 * Push, pop and pull for arrays
-* Set specific attributes
+* Partial updates
 
 !SLIDE javascript
 
@@ -144,7 +151,7 @@
 
 !SLIDE javascript
 
-## Set attributes ##
+## Partial Updates ##
 
     @@@ javascript
     db.users.update(
