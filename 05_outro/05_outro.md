@@ -1,5 +1,15 @@
 !SLIDE bullets
 
+<ul>
+<li>Introduction</li>
+<li>Basic CRUD</li>
+<li>Schema Design</li>
+<li>Scaling Up</li>
+<li><span class="current">Famous Last Words</span></li>
+</ul>
+
+!SLIDE bullets
+
 # Caveats #
 
 * No transaction support

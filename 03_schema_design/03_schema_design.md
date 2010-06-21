@@ -5,6 +5,7 @@
 <li>Basic CRUD</li>
 <li><span class="current">Schema Design</span></li>
 <li>Scaling Up</li>
+<li>Famous Last Words</li>
 </ul>
 
 !SLIDE
@@ -81,7 +82,7 @@
 
     @@@ javascript
     db.posts.find({
-      created: {$gt: Date()})
+      published: {$lte: Date()})
 
 !SLIDE javascript
 
@@ -107,7 +108,7 @@
 
     @@@ javascript
     db.posts.find({
-      created: {$lt: Date()},
+      published: {$lte: Date()},
       tags: {$in: ["nosql", "mongodb"]},
       $where: 'this.author = "mathias"'
     })
@@ -225,6 +226,8 @@
 
 * Pre-allocated size
 * Roll over through LRU
+* Insertion order
+* No indexes
 
 !SLIDE bullets incremental
 

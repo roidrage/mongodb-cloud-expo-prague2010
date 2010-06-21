@@ -5,6 +5,7 @@
 <li>Basic CRUD</li>
 <li>Schema Design</li>
 <li><span class="current">Scaling Up</span></li>
+<li>Famous Last Words</li>
 </ul>
 
 !SLIDE bullets incremental

@@ -5,6 +5,7 @@
 <li><span class="current">Basic CRUD</span></li>
 <li>Schema Design</li>
 <li>Scaling Up</li>
+<li>Famous Last Words</li>
 </ul>
 
 !SLIDE
