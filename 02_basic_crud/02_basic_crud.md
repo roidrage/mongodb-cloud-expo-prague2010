@@ -65,10 +65,6 @@
       "dark_side" : false
     }
 
-!SLIDE
-
-## Finds return cursors ##
-
 !SLIDE bullets incremental
 
 ## `_id` = Primary Key ##
@@ -82,7 +78,7 @@
 
 * Added automatically
 * Unique document identifier
-* timestamp, machine id, process id, counter
+* time, machine id, process id, counter
 
 !SLIDE javascript
 

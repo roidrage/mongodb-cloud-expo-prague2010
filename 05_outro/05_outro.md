@@ -8,12 +8,17 @@
 <li><span class="current">Famous Last Words</span></li>
 </ul>
 
-!SLIDE bullets
+!SLIDE bullets incremental
 
 # Caveats #
 
+* No joins
 * No transaction support
 * No single-server durability
+
+!SLIDE bullets
+
+## Tradeoffs for Speed ##
 
 !SLIDE
 

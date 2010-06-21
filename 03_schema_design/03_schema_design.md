@@ -187,9 +187,14 @@
     db.posts.find(
       {'comments.author': 'mathias'})
 
-!SLIDE
+!SLIDE javascript
 
 ## Index Embedded Documents ##
+
+    @@@ javascript
+    db.posts.ensureIndex({
+      'comments.author': 1
+    })
 
 !SLIDE javascript
 
@@ -237,7 +242,4 @@
 ## Map/Reduce ##
 
 * Aggregate and manipulate data
-
-!SLIDE javascript
-
 
