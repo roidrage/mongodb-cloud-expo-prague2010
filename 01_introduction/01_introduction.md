@@ -14,7 +14,7 @@
 
 # EC2 Cloud Management and Deployment #
 
-[@scalarium](http://twitter.com/scalarium)
+## [@scalarium](http://twitter.com/scalarium) ##
 
 !SLIDE bullets
 
