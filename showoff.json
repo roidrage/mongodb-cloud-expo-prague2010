@@ -1,5 +1,5 @@
 {
-  "name": "MongoDB",
+  "name": "Introduction to MongoDB",
   "sections": [
     {"section": "01_introduction"},
     {"section": "02_basic_crud"},
