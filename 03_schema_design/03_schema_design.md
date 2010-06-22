@@ -82,7 +82,7 @@
 
     @@@ javascript
     db.posts.find({
-      published: {$lte: Date()}
+      published: {$lt: Date()}
     })
 
 !SLIDE javascript
